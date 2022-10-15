@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { fetchData } from './component/api/Api'
-import Card from './component/cards/Card'
+import Cards from './component/cards/Card'
 import Charts from "./component/chart/Chart";
 import CountryPicker from "./component/countrypicker/CountryPicker";
 
@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <Card data={data} />
+      <Cards data={data} />
       <CountryPicker  countryHandleChange={countryHandleChange}/>
       <Charts chartData = {data} countryData = {cuntryChange}/>
     </div>

@@ -3,9 +3,6 @@ import { fetchData } from './component/api/Api'
 import Cards from './component/cards/Card'
 import Charts from "./component/chart/Chart";
 import CountryPicker from "./component/countrypicker/CountryPicker";
-// 
-// 
-// 
 
 function App() {
 
